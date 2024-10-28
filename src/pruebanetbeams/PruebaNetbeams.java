@@ -18,6 +18,11 @@ public class PruebaNetbeams {
         //sstem.out.println();
         System.out.println("La suma es "+suma(5,6));
         System.out.println("la resta es "+resta(5,6));
+        for(int i=0;i<5;i++)
+        {
+           System.out.println("eso que hpts");
+        }
+  
     }
     private static int suma(int x,int y)
     {
