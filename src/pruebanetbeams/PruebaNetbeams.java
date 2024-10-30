@@ -18,6 +18,7 @@ public class PruebaNetbeams {
         //sstem.out.println();
         System.out.println("La suma es "+suma(5,6));
         System.out.println("la resta es "+resta(5,6));
+        System.out.println("la multiplicacion es "+multiplica(5,6));
     }
     private static int suma(int x,int y)
     {
@@ -26,6 +27,10 @@ public class PruebaNetbeams {
      private static int resta(int x,int y)
     {
         return x-y;
+    }
+    private static int multiplica(int x, int y)
+    {
+        return x*y;
     }
     
 }
