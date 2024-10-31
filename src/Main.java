@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Vista;
+
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +15,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/Vista/Vista.fxml"));
+            Parent root = FXMLLoader.load(Main.class.getResource("/Vista/Vista.fxml"));
             Scene scene = new Scene(root);
             primaryStage.setTitle("Calculadoraa");
             primaryStage.setScene(scene);
